@@ -8,3 +8,6 @@ Aplikasi sederhana tentang resep masakan berbahasa Indonesia. Aplikasi hanya men
 
 ## Asset
 Sumber asset dari freepik.
+
+## Screenshot
+![Foodiee](foodie.png)
