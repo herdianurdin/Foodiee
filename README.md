@@ -1,13 +1,45 @@
-# Foodiee
-Aplikasi sederhana tentang resep masakan berbahasa Indonesia. Aplikasi hanya menampilikan beberapa resep masakan dan memiliki fitur pencarian. Serta ada fitur bookmark resep masakan, tetapi harus login dulu.
+## About Project
 
-[Demo Video](https://drive.google.com/file/d/1DYmvc7ctB73izx3Ju8YUZWpyFJEPspHb/view?usp=sharing)
+![Screenshot](screenshot.webp)
 
-## Aplikasi
-[Download](https://drive.google.com/file/d/1VTjh3f0FF6dMvHjGLt6qJUMxUj__95yp/view?usp=sharing)
+A simple application of Indonesian food recipes. You can bookmark recipes when you are logged in. This app implements Firebase Firestore & Firebase Authentication.
 
-## Asset
-Sumber asset dari freepik.
+For cartoon assets it comes from [Freepik](https://www.freepik.com/) and for icons it comes from [SVGRepo](https://svgrepo.com/).
 
-## Screenshot
-![Foodiee](foodie.png)
+### JSON Firestore Structure
+
+```JSON
+{
+  "Recipes": [
+    {
+      "id": "",
+      "data": {
+        "image": "",
+        "ingredients": "",
+        "method": "",
+        "publisher": "",
+        "searchTitle": "",
+        "title": "",
+      },
+    },
+  ],
+  "RecipeCollection": [
+    {
+      "id": "",
+      "data": {
+        "recipeId": "",
+        "userId": "",
+      },
+    }
+  ],
+}
+```
+
+### Built With
+
+[<img src='react.svg' alt='react' width='100' />](https://reactnative.dev/)
+[<img src='firebase.svg' alt='firebase' width='100' />](https://firebase.google.com/)
+
+## License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
